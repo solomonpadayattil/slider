@@ -8,6 +8,7 @@
 .carousel-container{
     width: 83%;
     margin: auto;
+    /* overflow: hidden; */
 }
 
 .carousel-slide{
@@ -17,21 +18,32 @@
 }
 
 #prevBtn{
+    width: 25px;
     position: absolute;
     top:40%;
     z-index:10;
     left:5%;
     font-size: 30px;
-    color: white;
+    color:black;
     cursor: pointer; 
+    
 }
 
 #nextBtn{
+    width: 25px;
     position: absolute;
     top:40%;
     z-index:10;
     right:5%;
     font-size: 30px;
-    color: white;
+    color: black;
     cursor: pointer; 
+}
+
+#prevBtn:hover{
+    background-color:burlywood;
+}
+
+#nextBtn:hover{
+    background-color:burlywood;
 }
